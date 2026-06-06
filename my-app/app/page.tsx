@@ -1,5 +1,5 @@
+import { EditorShell } from "@/components/editor/editor-shell";
+
 export default function Home() {
-  return (
-    <div className="absolute inset-0 bg-base" aria-label="Editor canvas" />
-  );
+  return <EditorShell />;
 }
